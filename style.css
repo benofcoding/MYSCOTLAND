@@ -1,4 +1,4 @@
-* {
+*{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -10,7 +10,7 @@
     height: 352px;
 }
 
-.hero-text {
+.hero-text{
     color: whitesmoke;
     position: absolute;
     text-align: center;
@@ -19,7 +19,7 @@
     font-size: 4rem;
 }
 
-.two-column {
+.two-column{
     display: grid;
     grid-template-columns: 1fr 3fr;
     gap: 50px;
@@ -28,10 +28,31 @@
     margin-top: 40px;
 }
 
-img {
+img{
     width: 100%;
 }
 
 .info{
     font-size: 1.25em;
+}
+
+.three-column{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 150px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.card{
+    background-color: rgb(124, 117, 180);
+    
+}
+
+.card-text{
+    text-align: center;
+    color: beige;
+    font-size: 2em;
 }
